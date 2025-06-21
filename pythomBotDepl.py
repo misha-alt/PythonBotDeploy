@@ -35,7 +35,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
         logging.info(f"Полный ответ API: {json.dumps(result, indent=4, ensure_ascii=False)}")  # Логируем полный ответ
 
-        # Новый, более безопасный способ извлечения ответа
+        # Новый, более безопасный способ извлечения ответаываыва
         try:
             # Попытка извлечь ответ по ожидаемому пути
             answer = result[1][0][1]
